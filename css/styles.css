@@ -1,0 +1,183 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  padding: 5% 30%;
+}
+
+
+#title{
+  background-color: #FF7BA9;
+  color: white;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+.tindog-logo{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+  font-weight: 100;
+
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  transform: rotate(25deg);
+  width:300px;
+  margin-left: 80px;
+  position: absolute;
+  z-index: 0;
+
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    text-align: center;
+
+  }
+}
+
+
+/* The second part */
+#features{
+  background-color: white;
+  line-height: 3;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-items{
+  padding: 100px 60px;
+}
+
+
+.second-h3{
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.second-icon{
+  color: #F68989;
+
+}
+.second-icon:hover{
+  color: #C65D7B;
+}
+
+.second-p{
+  color: #8f8f8f;
+}
+
+/* The third part --testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #F68989;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #F68989;
+  text-align: center;
+  padding-bottom: 3%
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+
+/* The forth part- pricing section  */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Fifth --Action part */
+#cta{
+  background-color: #FFBED8;
+  text-align: center;
+
+}
+
+.action-button{
+  margin: 1% 4% 6% ;
+
+}
+
+
+
+
+
+/* Footer section */
+#footer{
+  background-color: white;
+  text-align: center;
+  margin: 3% auto;
+}
+
+
+.footer-icon{
+  padding: 20px;
+}
